@@ -1,0 +1,196 @@
+/*Para evitar margenes no deseados en los elementos*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* Color fondo*/
+#body{
+    background-color: rgb(34, 32, 32);
+}
+/*Estilo para el encabezado*/
+#header{
+    min-width: 1024px;
+    width: 100%;
+    height: 130px;
+    margin: 0px auto;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#600113+59,330700+100 */
+    background: #600113; /* Old browsers */
+    background: -moz-linear-gradient(top,  #600113 59%, #330700 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #600113 59%,#330700 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #600113 59%,#330700 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#600113', endColorstr='#330700',GradientType=0 ); /* IE6-9 */
+}
+/*Estilo para el logo*/
+#header #logo img{
+    display: block;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+/*Estilo logo Twitter*/
+#twitter{
+    width: 60px;
+    margin-top: 40px;
+    margin-left: 1100px;
+}
+/*Estilo logo Facebook*/
+#facebook{
+    width: 46px;
+    margin-top: 47px;
+    margin-left: 850px;
+
+}
+/*Estilo logo Instagram*/
+#instagram{
+    width: 54px;
+    margin-top: 42px;
+    margin-left: 590px;
+}
+
+/*Estilo para la lista de navegación*/
+#nav{
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Fuente para la lista de navegación*/
+#nav ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    width: 100%;
+}
+/*Estilo para cada item de la lista*/
+#nav ul > li {
+    line-height: 50px;
+    float: left;
+    border-right: 1px solid gray;
+    transition: all 400ms;
+}
+/*Estilo para el hipervinculo de cada item de lista*/
+#nav ul > li a{
+    display: block;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: white;
+    text-decoration: none;
+}
+/*Efecto para los item de la lista*/
+#nav ul > li:hover{
+    box-shadow: 0px 0px 10px black inset;
+}
+/*Efecto para los hipervinculos de la lista*/
+#nav ul > li a:hover{
+    color:rgb(131, 8, 1);
+    transition: all 300ms;
+}
+/*Slide*/
+.carousel-inner img {
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: auto;
+  }
+
+/*Estilo para eliminar elementos flotantes*/
+.clearfix{
+    float:none;
+    clear: both;
+}
+
+/*Estilo para botón de compra*/
+.button-add{
+    border: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 400ms;
+}
+/*Estilo para el hover del botón de compra*/
+.button-add:hover{
+    background-color: rgb(96,1,19); 
+    color: white;
+}
+/*Estilo para la clase general de compra*/
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0px auto;
+}
+/*Estilo para los productos*/
+.product-container{
+    font-family: Poppins;
+    font-size: 30px;
+    margin: 30px;
+    padding: 20px 66px;
+    color: white;
+}
+/*Estilo para el hover de los productos*/
+.product-container:hover{
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.548) inset;
+    transition: 500ms;
+}
+/*Estilo para la imagen del producto*/
+.product-container img{
+    width: 200px;
+
+}
+/*Estilo para la sección de descripción*/
+#descripcion {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 60px;
+    color: white;
+}
+/*Estilo para la imagen de descripción*/
+#descripcion img{
+    display: block;
+    width: 400px;
+    margin: 0px auto;
+}
+/*Estilo para la sección de contacto*/
+#contacto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 80px;
+    color: white;
+}
+/*Estilo para el cuadro izquierdo de la sección de contacto*/
+#izquierda{
+    font-size: 26px;
+    text-align: left;
+    width: 600px;
+    height: auto; overflow: hidden;
+    border: 1px solid rgb(96,1,19);
+}
+/*Estilo para el mapa en la sección de contacto*/
+#location{
+    float: right;
+    width: 30%;
+    margin: 70px;
+    padding-bottom: 100px;
+}
+/*Estilo para el pie de página*/
+#footer{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgba(66, 1, 1, 0.555);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    box-shadow: 0px 0px 2px gray;
+    color: white;
+} 
